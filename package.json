@@ -1,0 +1,12 @@
+{
+  "name": "cyber-profile-converter",
+  "version": "1.0.0",
+  "description": "Easily convert your old cyber 3.0 profiles to the new 4.0 ones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Daniel Edeling",
+  "license": "ISC"
+}
