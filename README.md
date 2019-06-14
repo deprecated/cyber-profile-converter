@@ -11,3 +11,7 @@ node index.js name-of-the-old-profiles-file.json
 # Output
 
 newProfiles.json
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
