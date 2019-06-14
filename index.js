@@ -3,8 +3,8 @@ const args = process.argv;
 
 let newProfiles = [];
 
-let file = fs.readFileSync(`${__dirname}/${args[2]}`);
-let oldProfiles = JSON.parse(file);
+const file = fs.readFileSync(`${__dirname}/${args[2]}`);
+const oldProfiles = JSON.parse(file);
 
 oldProfiles.forEach(profile => {
   newProfiles.push({
@@ -44,5 +44,5 @@ oldProfiles.forEach(profile => {
   });
 });
 
-let data = JSON.stringify(newProfiles);
+const data = JSON.stringify(newProfiles);
 fs.writeFileSync('newProfiles.json', data);
